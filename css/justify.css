@@ -1,0 +1,17 @@
+.justify{
+    text-align: justify;
+}
+
+
+
+.container{
+    padding: 20px;
+}
+
+.salient_features p{
+    text-align: justify;
+}
+
+.justify ul,li{
+    list-style-type: disc;
+}

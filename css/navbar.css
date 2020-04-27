@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* logo */
+.navbar-brand{
+    width: 5%; 
+    float: left; 
+    margin-top: 0px;
+    clear: both;
+}
+
+/* navbar */
+.navbar{
+    background-color:ghostwhite;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-link{ 
+    display:inline-block;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: dimgray;
+}
+
+.nav-link-active{
+    position: relative;
+    color:rgba(10, 10, 10, 0.781);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    top:-5px;
+}
+
+.nav-item a:hover{
+    background-color: rgba(47, 47, 47, 0.411);
+    transition: 0.7s ease;
+    color: rgba(255, 255, 255, 0.726);
+    border-radius: 5px;
+}
+
+/* dropdown */
+/* .dropdown{
+    overflow: hidden;
+}
+
+.dropdown a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropdown a:hover{
+    background-color: rgba(47, 47, 47, 0.411);
+    transition: 0.7s ease;
+    color: rgba(255, 255, 255, 0.726);
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float: none;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    background-color: rgba(47, 47, 47, 0.411);
+    transition: 0.7s ease;
+    color: rgba(255, 255, 255, 0.726);
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+} */
+
+
+
+
+
+
+
+
